@@ -1,2 +1,2 @@
 # slashrtc-group-tasks
-SlashRtc intern group tasks
+SlashRtc intern tasks
