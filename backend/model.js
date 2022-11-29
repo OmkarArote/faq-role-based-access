@@ -1,6 +1,7 @@
 const SequelizeAuto = require('sequelize-auto')
-const auto = new SequelizeAuto('sys', 'admin', 'Slashrtc1234', {
-    host: "faq-db.cacmpgkjfu18.us-east-1.rds.amazonaws.com",
+const auto = new SequelizeAuto('faq_db', 'root', 'Omkar@2001', {
+    host: "127.0.0.1",
+    post : "3306",
     dialect: 'mysql'
 })
 auto.run(function (err) {

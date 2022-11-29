@@ -9,6 +9,7 @@ import ROUTE_SUPER from './component/routers/super_route'
 import ROUTE_ADMIN from './component/routers/admin_route'
 import ROUTE_VIEWER from './component/routers/viewer_route'
 import USER_LOGIN from './component/user_login';
+import USER_REG from './component/user_reg';
 
 // Others
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
@@ -37,6 +38,7 @@ class App extends React.Component {
           <BrowserRouter>
             <Routes>
               <Route path='/' element={<USER_LOGIN />}></Route>
+              <Route path='/registration' element={<USER_REG />}></Route>
             </Routes>
           </BrowserRouter>
           <ToastContainer />
